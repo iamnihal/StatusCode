@@ -8,7 +8,7 @@
 
 <h4 align="center">StatusCode will check the HTTP status code of urls from a given file.</h4>
 
-![demo](OverviewPic.png)
+![demo](Pic.png)
 
 #### HTTP status Checker
 StatusCode is written in Bash Shell Scripting and will check the HTTP status code of urls from the file given as argument.
