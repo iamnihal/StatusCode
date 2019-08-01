@@ -22,7 +22,7 @@ then
 else
 	n=$(cat $1 | wc -l)
 	echo -e "\033[1;31m+----------------------+"
-	echo -e "\033[1;31m|  $n urls to be check  |"
+	echo -e "\033[1;31m|  $n URLs to be check  |"
 	echo -e "\033[1;31m+----------------------+"
 	i=1
 	for urls in $(cat $1)
