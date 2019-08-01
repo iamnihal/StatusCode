@@ -2,7 +2,7 @@
   <br>
   <a href="https://github.com/iamnihal/StatusCode"><img src="https://raw.githubusercontent.com/iamnihal/StatusCode/master/logo.png" alt="StatusCode"></a>
   <br>
-  Extractor
+  StatusCode
   <br>
 </h1>
 
