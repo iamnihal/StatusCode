@@ -27,10 +27,10 @@ else
 	i=1
 	for urls in $(cat $1)
 	do
-		check=$(curl -s $urls)
+		response=$(curl -Is "$urls")
 		if [ "$?" -eq "0" ]
 		then
-			code=$(curl -Is "$urls" | head -1 | cut -d' ' -f 2 &)
+			code=$(echo "$response" | head -1 | cut -d' ' -f 2)
 			echo -e "\033[1;33m$i) $urls ---> $code"
 		else
 			echo -n "$i) $urls ---> "
