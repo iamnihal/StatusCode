@@ -15,4 +15,4 @@ StatusCode is written in Bash Shell Scripting and will check the HTTP status cod
 It uses curl command with -I flag to solely request headers of reponse and with cut command it trims out status code from it.
 
 ### Note:- 
-It took me 4.11 seconds to check 10 URLs. Though it also depends on your bandwidth.
+It took me 4.11 seconds to check out 10 URLs. Though it also depends on your bandwidth.
