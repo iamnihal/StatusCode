@@ -31,6 +31,7 @@ EOT
  
         clear 
         n=$(cat "$1" | wc -l) 
+        echo -e "\n"
         echo -e "\033[1;31m+-----------------------+" 
         echo -e "\033[1;31m|  $n URLs to be check  |" 
         echo -e "\033[1;31m+-----------------------+" 
